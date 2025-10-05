@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hayya Entry Visa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f3b47;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .visa-card {
+      background: linear-gradient(180deg, #1a4c59, #153946);
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 1000px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      color: #fff;
+    }
+    .header {
+      grid-column: span 3;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #2e5967;
+    }
+    .header h2 {
+      margin: 0;
+    }
+    .photo {
+      grid-row: span 2;
+    }
+    .photo img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .expired {
+      color: red;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .section {
+      background: rgba(255,255,255,0.05);
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .qr {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .qr img {
+      width: 150px;
+      margin-bottom: 10px;
+    }
+    .label {
+      font-weight: bold;
+      display: inline-block;
+      width: 150px;
+    }
+    .value {
+      font-weight: normal;
+    }
+    .fullname {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="visa-card">
+    <!-- Header -->
+    <div class="header">
+      <div>
+        <img src="dawlatqatar.png">
+        <p>Hayya Entry Visa<br>for State of Qatar</p>
+      </div>
+      <div>
+        <h2>HAYYA ENTRY VISA</h2>
+        <p><span class="label">Issuing Date:</span> 2025-09-10<br>
+        <span class="label">Last Entry Date:</span> 2025-12-09<br>
+        <span class="label">Entry Reference No.:</span> HT3738350871<br>
+        <span class="label">Duration:</span> 30<br>
+        <span class="label">Application Status:</span> VALID<br>
+        <span class="label">Visa Category:</span> Tourist Visa (A1)</p>
+      </div>
+    </div>
+
+
+    <!-- Left: Photo -->
+    <div class="photo">
+      <img src="chakip.jpg" alt="Photo">
+      <div class="VALID">VALID</div>
+      <div class="fullname">DJEDDOUR MOHAMED CHAKIB</div>
+      <div class="fullname">جدور محمد شكيب</div>
+    </div>
+
+    </div>
+
+    <!-- Middle: Personal Info -->
+    <div class="section">
+      <h3>PERSONAL INFORMATION</h3>
+      <p><span class="label">Nationality:</span> Algeria</p>
+      <p><span class="label">Gender:</span> male</p>
+      <p><span class="label">Date of Birth:</span> 2003-01-18</p>
+    </div>
+
+    <!-- Right: QR -->
+    <div class="section qr">
+      <img src="qrcode.png" alt="photo">
+      <p>HT3738350871</p>
+    </div>
+
+    <!-- Bottom: Passport -->
+    <div class="section">
+      <h3>PASSPORT</h3>
+      <p><span class="label">Passport Number:</span> 308100079</p>
+      <p><span class="label">Passport Type:</span> Normal</p>
+      <p><span class="label">Passport Expiry Date:</span> 2032-09-27</p>
+    </div>
+  </div>
+</body>
+</html>
